@@ -42,13 +42,6 @@ export const CardContainer = ({url, reqData}) => {
             return allCourses;
         }
         else {
-            // Object.keys(course).forEach(e => {
-            //     if(e === reqData.title) {
-            //         course[e].forEach( element => {
-            //             allCourses.push(element);
-            //         })
-            //     }
-            // })
             return course[reqData.title];
         }
 
